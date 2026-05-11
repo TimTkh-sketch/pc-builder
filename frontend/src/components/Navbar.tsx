@@ -22,18 +22,24 @@ export default function Navbar() {
 
   return (
     <header className="border-b border-gray-800 bg-gray-900 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-2 overflow-x-auto">
-        <Link to="/" className="flex items-center gap-2 text-blue-400 font-bold text-lg mr-4 shrink-0">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2 text-blue-400 font-bold text-lg mr-2 shrink-0">
           <Cpu size={22} />
-          PC Builder
+          <span className="hidden sm:inline">PC Builder</span>
         </Link>
-        <nav className="flex gap-1">
-          {link("/", "Главная", true)}
-          {link("/components", "Каталог")}
-          {link("/periphery", "Периферия")}
-          {link("/prebuilds", "Готовые сборки")}
-          {link("/builds", "Мои сборки")}
-        </nav>
+
+        {/* Nav with scroll hint */}
+        <div className="relative flex-1 overflow-hidden">
+          <nav className="flex gap-1 overflow-x-auto scrollbar-hide">
+            {link("/", "Главная", true)}
+            {link("/components", "Каталог")}
+            {link("/periphery", "Периферия")}
+            {link("/prebuilds", "Готовые сборки")}
+            {link("/builds", "Мои сборки")}
+          </nav>
+          {/* Fade hint — shows only when content overflows */}
+          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-900 to-transparent pointer-events-none" />
+        </div>
       </div>
     </header>
   );
