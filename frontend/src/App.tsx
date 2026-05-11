@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import BottomNav from "./components/BottomNav";
+import OfferTicker from "./components/OfferTicker";
 import HomePage from "./pages/HomePage";
 import ComponentsPage from "./pages/ComponentsPage";
 import ComponentDetailPage from "./pages/ComponentDetailPage";
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-950">
       <Navbar />
+      <OfferTicker />
       <main className="pb-24 md:pb-0">
         <Routes>
           <Route path="/" element={<HomePage />} />

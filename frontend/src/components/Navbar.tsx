@@ -1,6 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
 import { Cpu } from "lucide-react";
-import OfferTicker from "./OfferTicker";
 
 export default function Navbar() {
   const { pathname } = useLocation();
@@ -49,8 +48,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile ticker */}
-      <OfferTicker />
     </header>
   );
 }
