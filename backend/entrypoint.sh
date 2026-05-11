@@ -1,15 +1,11 @@
 #!/bin/sh
 set -e
 
+echo "DATABASE_URL=${DATABASE_URL}"
+
 echo "Waiting for database..."
-until python -c "
-import psycopg2, os, sys
-try:
-    psycopg2.connect(os.environ['DATABASE_URL'])
-    sys.exit(0)
-except:
-    sys.exit(1)
-"; do
+until python -c "import psycopg2, os, sys; psycopg2.connect(os.environ['DATABASE_URL']); sys.exit(0)" 2>&1; do
+  echo "Retrying in 2s..."
   sleep 2
 done
 echo "Database is ready."
