@@ -14,7 +14,7 @@ export default function BottomNav() {
 
   return (
     <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur border-t border-gray-800"
-         style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
+         style={{ paddingBottom: "max(env(safe-area-inset-bottom), 8px)" }}>
       <div className="flex items-stretch">
         {TABS.map(({ to, icon: Icon, label, exact }) => {
           const active = exact ? pathname === to : pathname.startsWith(to);
@@ -22,7 +22,7 @@ export default function BottomNav() {
             <Link
               key={to}
               to={to}
-              className={`flex-1 flex flex-col items-center justify-center gap-0.5 py-2 transition-colors ${
+              className={`flex-1 flex flex-col items-center justify-center gap-0.5 py-3 transition-colors ${
                 active ? "text-blue-400" : "text-gray-500 hover:text-gray-300"
               }`}
             >
