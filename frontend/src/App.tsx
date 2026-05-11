@@ -15,7 +15,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-950">
       <Navbar />
       <OfferTicker />
-      <main className="pb-24 md:pb-0">
+      <main className="pb-20 md:pb-0">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/components" element={<ComponentsPage />} />
