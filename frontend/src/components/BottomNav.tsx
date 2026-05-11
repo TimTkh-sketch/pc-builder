@@ -24,12 +24,12 @@ export default function BottomNav() {
             <Link
               key={to}
               to={to}
-              className={`flex-1 flex flex-col items-center justify-center gap-0.5 py-2 transition-colors ${
+              className={`flex-1 flex flex-col items-center justify-center gap-1 py-3 transition-colors ${
                 active ? "text-blue-400" : "text-gray-500 hover:text-gray-300"
               }`}
             >
-              <Icon size={22} strokeWidth={active ? 2.5 : 1.8} />
-              <span className={`text-[10px] font-medium ${active ? "text-blue-400" : "text-gray-500"}`}>
+              <Icon size={26} strokeWidth={active ? 2.5 : 1.8} />
+              <span className={`text-xs font-medium ${active ? "text-blue-400" : "text-gray-500"}`}>
                 {label}
               </span>
               {active && (
