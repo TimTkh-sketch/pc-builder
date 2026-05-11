@@ -21,10 +21,15 @@ export default {
           "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
+        "ticker": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "slide-in": "slide-in 0.25s ease-out",
         "fade-in":  "fade-in 0.4s ease-out",
+        "ticker":   "ticker 30s linear infinite",
       },
     },
   },
