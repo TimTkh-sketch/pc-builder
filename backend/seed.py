@@ -149,12 +149,12 @@ add(CategorySlug.motherboard,"ASUS","ASUS ROG Strix Z790-E Gaming","ROG Strix Z7
 add(CategorySlug.motherboard,"MSI","MSI MAG B760 Tomahawk","MAG B760 Tomahawk",
     Motherboard(socket="LGA1700",chipset="B760",form_factor="ATX",ram_slots=4,
                 max_ram_gb=128,ram_type="DDR5",max_ram_speed_mhz=6400,pcie_slots=2,m2_slots=3,sata_ports=6),
-    [("DNS",16990,dns),("Citilink",17500,citilink),("OZON",16500,ozon)], "mb2",release_year=2023)
+    [("DNS",16990,dns),("Citilink",17500,citilink),("OZON",16500,ozon)], release_year=2023)
 
 add(CategorySlug.motherboard,"MSI","MSI MAG B660M Mortar","MAG B660M Mortar",
     Motherboard(socket="LGA1700",chipset="B660",form_factor="mATX",ram_slots=4,
                 max_ram_gb=128,ram_type="DDR4",max_ram_speed_mhz=4800,pcie_slots=2,m2_slots=2,sata_ports=4),
-    [("DNS",11990,dns),("Citilink",12200,citilink),("OZON",11700,ozon)], "mb2",release_year=2022)
+    [("DNS",11990,dns),("Citilink",12200,citilink),("OZON",11700,ozon)], release_year=2022)
 
 add(CategorySlug.motherboard,"ASUS","ASUS Prime B760M-A","Prime B760M-A DDR4",
     Motherboard(socket="LGA1700",chipset="B760",form_factor="mATX",ram_slots=4,
@@ -169,12 +169,12 @@ add(CategorySlug.motherboard,"Gigabyte","Gigabyte X670E Aorus Master","X670E Aor
 add(CategorySlug.motherboard,"MSI","MSI B650 Tomahawk","B650 Tomahawk WiFi",
     Motherboard(socket="AM5",chipset="B650",form_factor="ATX",ram_slots=4,
                 max_ram_gb=128,ram_type="DDR5",max_ram_speed_mhz=6400,pcie_slots=2,m2_slots=3,sata_ports=6),
-    [("DNS",19990,dns),("Citilink",20500,citilink),("OZON",19500,ozon)], "mb2",release_year=2022)
+    [("DNS",19990,dns),("Citilink",20500,citilink),("OZON",19500,ozon)], release_year=2022)
 
 add(CategorySlug.motherboard,"MSI","MSI B550 Tomahawk","B550 Tomahawk",
     Motherboard(socket="AM4",chipset="B550",form_factor="ATX",ram_slots=4,
                 max_ram_gb=128,ram_type="DDR4",max_ram_speed_mhz=5100,pcie_slots=2,m2_slots=2,sata_ports=6),
-    [("DNS",12990,dns),("Citilink",13500,citilink),("OZON",12700,ozon)], "mb2",release_year=2020)
+    [("DNS",12990,dns),("Citilink",13500,citilink),("OZON",12700,ozon)], release_year=2020)
 
 add(CategorySlug.motherboard,"ASUS","ASUS Prime A520M-K","Prime A520M-K",
     Motherboard(socket="AM4",chipset="A520",form_factor="mATX",ram_slots=2,
@@ -190,7 +190,7 @@ add(CategorySlug.ram,"Corsair","Corsair Vengeance DDR5-6000 32GB","Vengeance DDR
 
 add(CategorySlug.ram,"Kingston","Kingston FURY Beast DDR5-5600 32GB","FURY Beast DDR5-5600 32GB",
     RAM(ram_type="DDR5",capacity_gb=32,speed_mhz=5600,modules_count=2,cas_latency=40,voltage_v=1.25),
-    [("DNS",8990,dns),("Citilink",9200,citilink),("OZON",8700,ozon)], "ram2",release_year=2022)
+    [("DNS",8990,dns),("Citilink",9200,citilink),("OZON",8700,ozon)], release_year=2022)
 
 add(CategorySlug.ram,"Crucial","Crucial Pro DDR5-5600 16GB","Crucial Pro DDR5-5600 16GB",
     RAM(ram_type="DDR5",capacity_gb=16,speed_mhz=5600,modules_count=2,cas_latency=46,voltage_v=1.1),
@@ -198,7 +198,7 @@ add(CategorySlug.ram,"Crucial","Crucial Pro DDR5-5600 16GB","Crucial Pro DDR5-56
 
 add(CategorySlug.ram,"Corsair","Corsair Vengeance DDR4-3200 32GB","Vengeance DDR4-3200 32GB",
     RAM(ram_type="DDR4",capacity_gb=32,speed_mhz=3200,modules_count=2,cas_latency=16,voltage_v=1.35),
-    [("DNS",6990,dns),("Citilink",7200,citilink),("OZON",6800,ozon)], "ram2",release_year=2020)
+    [("DNS",6990,dns),("Citilink",7200,citilink),("OZON",6800,ozon)], release_year=2020)
 
 add(CategorySlug.ram,"Kingston","Kingston FURY Beast DDR4-3600 16GB","FURY Beast DDR4-3600 16GB",
     RAM(ram_type="DDR4",capacity_gb=16,speed_mhz=3600,modules_count=2,cas_latency=17,voltage_v=1.35),
@@ -206,7 +206,7 @@ add(CategorySlug.ram,"Kingston","Kingston FURY Beast DDR4-3600 16GB","FURY Beast
 
 add(CategorySlug.ram,"ADATA","ADATA XPG Lancer DDR5-6000 32GB","XPG Lancer DDR5-6000 32GB",
     RAM(ram_type="DDR5",capacity_gb=32,speed_mhz=6000,modules_count=2,cas_latency=30,voltage_v=1.35),
-    [("DNS",10990,dns),("Citilink",11200,citilink),("OZON",10700,ozon)], "ram2",release_year=2022)
+    [("DNS",10990,dns),("Citilink",11200,citilink),("OZON",10700,ozon)], release_year=2022)
 
 # ╔══════════════════════════════════════════════════════╗
 # ║  GPUs                                                ║
@@ -219,7 +219,7 @@ add(CategorySlug.gpu,"ASUS","ASUS ROG Strix RTX 4090 OC 24GB","ROG Strix RTX 409
 add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4080 Super Gaming X Slim","RTX 4080 Super Gaming X Slim",
     GPU(vram_gb=16,vram_type="GDDR6X",tdp_w=320,length_mm=337,pcie_version="PCIe 4.0 x16",
         power_connectors="3x8-pin",cuda_cores=10240,recommended_psu_w=750),
-    [("DNS",89990,dns),("Citilink",92000,citilink),("OZON",88000,ozon)], "gpu2",release_year=2024)
+    [("DNS",89990,dns),("Citilink",92000,citilink),("OZON",88000,ozon)], release_year=2024)
 
 add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4070 Ti Gaming X Trio","RTX 4070 Ti Gaming X Trio",
     GPU(vram_gb=12,vram_type="GDDR6X",tdp_w=285,length_mm=336,pcie_version="PCIe 4.0 x16",
@@ -229,7 +229,7 @@ add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4070 Ti Gaming X Trio","RTX 4070 Ti 
 add(CategorySlug.gpu,"Gigabyte","Gigabyte RTX 4070 Super Eagle OC","RTX 4070 Super Eagle OC 12G",
     GPU(vram_gb=12,vram_type="GDDR6X",tdp_w=220,length_mm=302,pcie_version="PCIe 4.0 x16",
         power_connectors="2x8-pin",cuda_cores=7168,recommended_psu_w=650),
-    [("DNS",54990,dns),("Citilink",56000,citilink),("OZON",53500,ozon)], "gpu2",release_year=2024)
+    [("DNS",54990,dns),("Citilink",56000,citilink),("OZON",53500,ozon)], release_year=2024)
 
 add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4060 Ti Gaming X","RTX 4060 Ti Gaming X 8G",
     GPU(vram_gb=8,vram_type="GDDR6",tdp_w=165,length_mm=304,pcie_version="PCIe 4.0 x16",
@@ -239,7 +239,7 @@ add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4060 Ti Gaming X","RTX 4060 Ti Gamin
 add(CategorySlug.gpu,"MSI","MSI GeForce RTX 4060 Gaming X","RTX 4060 Gaming X 8G",
     GPU(vram_gb=8,vram_type="GDDR6",tdp_w=115,length_mm=282,pcie_version="PCIe 4.0 x16",
         power_connectors="1x16-pin",cuda_cores=3072,recommended_psu_w=550),
-    [("DNS",34990,dns),("Citilink",35500,citilink),("OZON",34200,ozon)], "gpu2",release_year=2023)
+    [("DNS",34990,dns),("Citilink",35500,citilink),("OZON",34200,ozon)], release_year=2023)
 
 add(CategorySlug.gpu,"Gigabyte","Gigabyte RX 7900 XTX Gaming OC 24GB","RX 7900 XTX Gaming OC 24G",
     GPU(vram_gb=24,vram_type="GDDR6",tdp_w=355,length_mm=336,pcie_version="PCIe 4.0 x16",
@@ -249,7 +249,7 @@ add(CategorySlug.gpu,"Gigabyte","Gigabyte RX 7900 XTX Gaming OC 24GB","RX 7900 X
 add(CategorySlug.gpu,"Gigabyte","Gigabyte RX 7600 Gaming OC 8GB","RX 7600 Gaming OC 8G",
     GPU(vram_gb=8,vram_type="GDDR6",tdp_w=165,length_mm=242,pcie_version="PCIe 4.0 x8",
         power_connectors="1x8-pin",recommended_psu_w=550),
-    [("DNS",24990,dns),("Citilink",25500,citilink),("OZON",24500,ozon)], "gpu2",release_year=2023)
+    [("DNS",24990,dns),("Citilink",25500,citilink),("OZON",24500,ozon)], release_year=2023)
 
 add(CategorySlug.gpu,"Gigabyte","Gigabyte RX 6600 Eagle 8GB","RX 6600 Eagle 8G",
     GPU(vram_gb=8,vram_type="GDDR6",tdp_w=132,length_mm=275,pcie_version="PCIe 4.0 x8",
@@ -323,7 +323,7 @@ add(CategorySlug.case,"Fractal","Fractal Design Define 7 ATX","Define 7 ATX Mid-
 
 add(CategorySlug.case,"Fractal","Fractal Design Meshify 2","Meshify 2 ATX",
     Case(form_factor="ATX",max_gpu_length_mm=467,max_cooler_height_mm=185,drive_bays_35=3,drive_bays_25=3,usb_ports="2x USB 3.0, 1x USB-C"),
-    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12700,ozon)], "case2",release_year=2020)
+    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12700,ozon)], release_year=2020)
 
 add(CategorySlug.case,"ASUS","ASUS TUF Gaming GT501","TUF Gaming GT501 ATX",
     Case(form_factor="ATX",max_gpu_length_mm=420,max_cooler_height_mm=180,drive_bays_35=2,drive_bays_25=2,usb_ports="2x USB 3.0, 1x USB-C"),
@@ -331,7 +331,7 @@ add(CategorySlug.case,"ASUS","ASUS TUF Gaming GT501","TUF Gaming GT501 ATX",
 
 add(CategorySlug.case,"Fractal","Fractal Design Pop Mini Air","Pop Mini Air mATX",
     Case(form_factor="mATX",max_gpu_length_mm=340,max_cooler_height_mm=170,drive_bays_35=1,drive_bays_25=2,usb_ports="2x USB 3.0"),
-    [("DNS",7990,dns),("Citilink",8200,citilink),("OZON",7700,ozon)], "case2",release_year=2022)
+    [("DNS",7990,dns),("Citilink",8200,citilink),("OZON",7700,ozon)], release_year=2022)
 
 # ╔══════════════════════════════════════════════════════╗
 # ║  Coolers                                             ║
@@ -371,7 +371,7 @@ add(CategorySlug.monitor,"LG","LG UltraGear 27GP850-B 27\" QHD 165Hz","LG 27GP85
 add(CategorySlug.monitor,"ASUS","ASUS ROG Strix XG279Q 27\" QHD 170Hz","ASUS ROG XG279Q 27 QHD 170Hz",
     Monitor(panel_type="IPS",resolution="2560x1440",refresh_rate_hz=170,response_time_ms=1.0,
             size_inch=27.0,hdr=True,freesync=True,gsync=True,connectors="HDMI 2.0, 2x DisplayPort 1.2",curved=False),
-    [("DNS",34990,dns),("Citilink",35500,citilink)], "monitor2",release_year=2020)
+    [("DNS",34990,dns),("Citilink",35500,citilink)], release_year=2020)
 
 add(CategorySlug.monitor,"MSI","MSI MAG 274QRF-QD 27\" QHD 165Hz","MSI MAG274QRF-QD 27 QHD",
     Monitor(panel_type="IPS",resolution="2560x1440",refresh_rate_hz=165,response_time_ms=1.0,
@@ -381,7 +381,7 @@ add(CategorySlug.monitor,"MSI","MSI MAG 274QRF-QD 27\" QHD 165Hz","MSI MAG274QRF
 add(CategorySlug.monitor,"Acer","Acer Nitro XV272U 27\" QHD 144Hz","Acer Nitro XV272U 27 QHD",
     Monitor(panel_type="IPS",resolution="2560x1440",refresh_rate_hz=144,response_time_ms=1.0,
             size_inch=27.0,hdr=False,freesync=True,connectors="HDMI 2.0, DisplayPort 1.2",curved=False),
-    [("DNS",19990,dns),("Citilink",20500,citilink),("OZON",19500,ozon)], "monitor2",release_year=2021)
+    [("DNS",19990,dns),("Citilink",20500,citilink),("OZON",19500,ozon)], release_year=2021)
 
 add(CategorySlug.monitor,"LG","LG 27UK850 27\" 4K IPS 60Hz","LG 27UK850 27 4K 60Hz",
     Monitor(panel_type="IPS",resolution="3840x2160",refresh_rate_hz=60,response_time_ms=5.0,
@@ -391,7 +391,7 @@ add(CategorySlug.monitor,"LG","LG 27UK850 27\" 4K IPS 60Hz","LG 27UK850 27 4K 60
 add(CategorySlug.monitor,"MSI","MSI Optix G24C6 24\" FHD 144Hz Curved","MSI Optix G24C6 24 FHD 144Hz",
     Monitor(panel_type="VA",resolution="1920x1080",refresh_rate_hz=144,response_time_ms=1.0,
             size_inch=24.0,hdr=False,freesync=True,connectors="HDMI, DisplayPort",curved=True),
-    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12500,ozon)], "monitor2",release_year=2021)
+    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12500,ozon)], release_year=2021)
 
 add(CategorySlug.monitor,"ASUS","ASUS VP249QGR 24\" FHD 144Hz","ASUS VP249QGR 24 FHD 144Hz",
     Monitor(panel_type="IPS",resolution="1920x1080",refresh_rate_hz=144,response_time_ms=1.0,
@@ -403,7 +403,7 @@ add(CategorySlug.monitor,"ASUS","ASUS VP249QGR 24\" FHD 144Hz","ASUS VP249QGR 24
 # ╚══════════════════════════════════════════════════════╝
 add(CategorySlug.keyboard,"HyperX","HyperX Alloy Origins Core TKL","HyperX Alloy Origins Core Red",
     Keyboard(kb_type="Mechanical",switch_type="HyperX Red Linear",layout="TKL",wireless=False,rgb=True,connector="USB-C"),
-    [("DNS",7990,dns),("Citilink",8200,citilink),("OZON",7700,ozon)], "keyboard2",release_year=2020)
+    [("DNS",7990,dns),("Citilink",8200,citilink),("OZON",7700,ozon)], release_year=2020)
 
 add(CategorySlug.keyboard,"Razer","Razer BlackWidow V3 Tenkeyless","Razer BlackWidow V3 TKL Green",
     Keyboard(kb_type="Mechanical",switch_type="Razer Green Clicky",layout="TKL",wireless=False,rgb=True,connector="USB-A"),
@@ -411,7 +411,7 @@ add(CategorySlug.keyboard,"Razer","Razer BlackWidow V3 Tenkeyless","Razer BlackW
 
 add(CategorySlug.keyboard,"Logitech","Logitech G Pro X TKL","Logitech G Pro X TKL Blue",
     Keyboard(kb_type="Mechanical",switch_type="GX Blue Clicky",layout="TKL",wireless=False,rgb=True,connector="USB-C"),
-    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12700,ozon)], "keyboard2",release_year=2021)
+    [("DNS",12990,dns),("Citilink",13200,citilink),("OZON",12700,ozon)], release_year=2021)
 
 add(CategorySlug.keyboard,"SteelSeries","SteelSeries Apex Pro TKL","Apex Pro TKL OmniPoint",
     Keyboard(kb_type="Mechanical",switch_type="OmniPoint Adjustable",layout="TKL",wireless=False,rgb=True,connector="USB-C"),
@@ -419,7 +419,7 @@ add(CategorySlug.keyboard,"SteelSeries","SteelSeries Apex Pro TKL","Apex Pro TKL
 
 add(CategorySlug.keyboard,"Logitech","Logitech G213 Prodigy Full","Logitech G213 Prodigy Membrane",
     Keyboard(kb_type="Membrane",switch_type="Mech-dome",layout="Full",wireless=False,rgb=True,connector="USB-A"),
-    [("DNS",3990,dns),("Citilink",4200,citilink),("OZON",3700,ozon)], "keyboard2",release_year=2020)
+    [("DNS",3990,dns),("Citilink",4200,citilink),("OZON",3700,ozon)], release_year=2020)
 
 add(CategorySlug.keyboard,"HyperX","HyperX Alloy Origins Full RGB","HyperX Alloy Origins Red Full",
     Keyboard(kb_type="Mechanical",switch_type="HyperX Red Linear",layout="Full",wireless=False,rgb=True,connector="USB-C"),
@@ -434,7 +434,7 @@ add(CategorySlug.mouse,"Logitech","Logitech G502 X Plus Wireless","Logitech G502
 
 add(CategorySlug.mouse,"Logitech","Logitech G502 HERO Wired","Logitech G502 HERO Wired",
     Mouse(max_dpi=25600,sensor="HERO 25K",buttons=11,wireless=False,rgb=True,weight_g=121,polling_rate_hz=1000),
-    [("DNS",5990,dns),("Citilink",6200,citilink),("OZON",5700,ozon)], "mouse2",release_year=2019)
+    [("DNS",5990,dns),("Citilink",6200,citilink),("OZON",5700,ozon)], release_year=2019)
 
 add(CategorySlug.mouse,"Razer","Razer DeathAdder V3 HyperSpeed","Razer DeathAdder V3 HyperSpeed",
     Mouse(max_dpi=26000,sensor="Razer Focus Pro 30K",buttons=5,wireless=True,rgb=False,weight_g=81,polling_rate_hz=1000),
@@ -442,7 +442,7 @@ add(CategorySlug.mouse,"Razer","Razer DeathAdder V3 HyperSpeed","Razer DeathAdde
 
 add(CategorySlug.mouse,"Razer","Razer Viper V2 Pro Wireless","Razer Viper V2 Pro White",
     Mouse(max_dpi=30000,sensor="Razer Focus Pro 30K",buttons=5,wireless=True,rgb=False,weight_g=58,polling_rate_hz=8000),
-    [("DNS",14990,dns),("Citilink",15500,citilink),("OZON",14500,ozon)], "mouse2",release_year=2022)
+    [("DNS",14990,dns),("Citilink",15500,citilink),("OZON",14500,ozon)], release_year=2022)
 
 add(CategorySlug.mouse,"SteelSeries","SteelSeries Rival 650 Wireless","SteelSeries Rival 650 Wireless",
     Mouse(max_dpi=12000,sensor="TrueMove3+",buttons=7,wireless=True,rgb=True,weight_g=121,polling_rate_hz=1000),
@@ -450,7 +450,7 @@ add(CategorySlug.mouse,"SteelSeries","SteelSeries Rival 650 Wireless","SteelSeri
 
 add(CategorySlug.mouse,"Logitech","Logitech M185 Wireless Office","Logitech M185 Wireless",
     Mouse(max_dpi=1000,sensor="Optical",buttons=3,wireless=True,rgb=False,weight_g=75,polling_rate_hz=125),
-    [("DNS",1490,dns),("Citilink",1600,citilink),("OZON",1390,ozon)], "mouse2",release_year=2019)
+    [("DNS",1490,dns),("Citilink",1600,citilink),("OZON",1390,ozon)], release_year=2019)
 
 db.flush()
 
